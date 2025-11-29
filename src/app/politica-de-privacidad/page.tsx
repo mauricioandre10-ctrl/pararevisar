@@ -1,0 +1,72 @@
+
+export default function PoliticaDePrivacidadPage() {
+    return (
+        <main className="flex-1">
+            <div className="container mx-auto px-4 md:px-6 py-12 md:py-16">
+                <article className="prose prose-invert max-w-4xl mx-auto">
+                    <h1 className="text-4xl font-bold font-headline mb-8 tracking-wider">Política de Privacidad</h1>
+
+                
+                    <h2 className="text-2xl font-bold font-headline mt-8 mb-4 tracking-wider">1. Identificación del responsable del tratamiento</h2>
+                    <p>
+                        <strong>Nombre de la empresa:</strong> Israel Antonio García Mora autónomo<br />
+                        <strong>NIF/CIF:</strong> 26542306F<br />
+                        <strong>Dirección:</strong> Rúa Doutor Fleming, 36-38-40, Galerías Proyflem Local B-6 Nivel 1, 32003 Ourense<br />
+                        <strong>Correo electrónico:</strong> info@iaparalavidareal.com<br />
+                        <strong>Sitio web:</strong> iaparalavidareal.com
+                    </p>
+
+                    <h2 className="text-2xl font-bold font-headline mt-8 mb-4 tracking-wider">2. ¿Con qué finalidad tratamos tus datos personales?</h2>
+                    <p>
+                        En IA Para La Vida Real, tratamos la información que nos facilitan las personas interesadas con el fin de gestionar la inscripción y participación en nuestros cursos, así como para enviar comunicaciones comerciales sobre nuestras formaciones, novedades y eventos, siempre que contemos con tu consentimiento expreso.
+                    </p>
+                    <p>
+                        No se tomarán decisiones automatizadas en base a los perfiles de los usuarios.
+                    </p>
+
+                    <h2 className="text-2xl font-bold font-headline mt-8 mb-4 tracking-wider">3. ¿Por cuánto tiempo conservaremos tus datos?</h2>
+                    <p>
+                        Los datos se conservarán mientras se mantenga la relación comercial o durante los años necesarios para cumplir con las obligaciones legales. Una vez finalizada la relación, se procederá a su supresión, salvo que exista una obligación legal que requiera su conservación.
+                    </p>
+
+                    <h2 className="text-2xl font-bold font-headline mt-8 mb-4 tracking-wider">4. ¿Cuál es la legitimación para el tratamiento de tus datos?</h2>
+                    <p>
+                        La base legal para el tratamiento de tus datos es la ejecución del contrato de prestación de servicios (la inscripción al curso) y tu consentimiento expreso para el envío de comunicaciones comerciales. Puedes retirar tu consentimiento en cualquier momento.
+                    </p>
+                    <p>
+                        Al utilizar los botones de contacto que redirigen a WhatsApp, el usuario reconoce y acepta implícitamente las condiciones de uso y políticas de privacidad aquí descritas para la gestión de su solicitud de información o inscripción.
+                    </p>
+
+
+                    <h2 className="text-2xl font-bold font-headline mt-8 mb-4 tracking-wider">5. ¿A qué destinatarios se comunicarán tus datos?</h2>
+                    <p>
+                        Tus datos no se cederán a terceros, salvo obligación legal. Para el correcto funcionamiento del servicio, es posible que tus datos sean comunicados a proveedores de servicios tecnológicos, como proveedores de hosting o plataformas de email marketing, siempre bajo estrictos contratos de confidencialidad y como encargados del tratamiento.
+                    </p>
+
+                    <h2 className="text-2xl font-bold font-headline mt-8 mb-4 tracking-wider">6. ¿Cuáles son tus derechos cuando nos facilitas tus datos?</h2>
+                    <p>
+                        Cualquier persona tiene derecho a obtener confirmación sobre si en IA Para La Vida Real estamos tratando datos personales que les conciernan, o no.
+                    </p>
+                    <p>
+                        Las personas interesadas tienen derecho a acceder a sus datos personales, así como a solicitar la rectificación de los datos inexactos o, en su caso, solicitar su supresión cuando, entre otros motivos, los datos ya no sean necesarios para los fines que fueron recogidos.
+                    </p>
+                    <p>
+                        Puedes ejercer tus derechos de acceso, rectificación, supresión, oposición y limitación del tratamiento a través del correo electrónico [Tu correo electrónico de contacto].
+                    </p>
+
+                    <h2 className="text-2xl font-bold font-headline mt-8 mb-4 tracking-wider">7. Procedencia de los datos</h2>
+                    <p>
+                        Los datos personales que tratamos proceden directamente del interesado a través de los formularios de contacto e inscripción del sitio web.
+                    </p>
+                    <p>Las categorías de datos que se tratan son:</p>
+                    <ul>
+                        <li>Datos de identificación (nombre, apellidos)</li>
+                        <li>Datos de contacto (email, teléfono)</li>
+                    </ul>
+
+                    <p className="mt-8">Última actualización: [Fecha de la última actualización]</p>
+                </article>
+            </div>
+        </main>
+    );
+}

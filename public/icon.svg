@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Cabeza alienígena con barbilla redondeada -->
+  <path
+    d="
+      M256 32
+      C 144 32, 80 120, 80 208
+      C 80 336, 176 424, 232 472
+      Q 256 496, 280 472
+      C 336 424, 432 336, 432 208
+      C 432 120, 368 32, 256 32
+      Z"
+    fill="#00ff00" />
+
+  <!-- Ojo izquierdo -->
+  <path
+    d="M160 224c-40-24-64-16-64 8s24 64 64 80c40 16 64 8 64-16s-24-48-64-72z"
+    fill="#ffffff" />
+
+  <!-- Ojo derecho -->
+  <path
+    d="M352 224c40-24 64-16 64 8s-24 64-64 80c-40 16-64 8-64-16s24-48 64-72z"
+    fill="#ffffff" />
+</svg>

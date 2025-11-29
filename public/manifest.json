@@ -1,0 +1,21 @@
+{
+  "name": "IA Para La Vida Real",
+  "short_name": "IA Vida Real",
+  "description": "Taller presencial de Inteligencia Artificial en Ourense.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#7ae668",
+  "icons": [
+    {
+      "src": "public/image/logo/logo_ia_verde.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "public/image/logo/logo_ia_verde.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
